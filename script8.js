@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById('downloadButton').addEventListener('click', function () {
         var link = document.createElement('a');
-        link.href = 'Resume.pdf';
-        link.download = 'Resume.pdf';
+        link.href = 'My Resume.pdf';
+        link.download = 'My Resume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
