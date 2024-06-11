@@ -403,8 +403,10 @@ main {
 }
 
 .certifications-section .certificate-slide img {
-    max-width: 500%;
+    max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .certifications-section .dot-container {
@@ -425,10 +427,12 @@ main {
 .certifications-section .active {
     background-color: #717171;
 }
+
 .certifications-section h2 {
     font-size: 32px;
     font-weight: bold;
-    color: #0091ff; 
-    margin-bottom: 30px; 
-    text-align: center; 
+    color: #0091ff;
+    margin-bottom: 30px;
+    text-align: center;
 }
+
