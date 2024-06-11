@@ -403,11 +403,16 @@ main {
 }
 
 .certifications-section .certificate-slide {
-    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    height: auto; /* Adjust height automatically */
 }
 
 .certifications-section .certificate-slide img {
+    width: auto;
     max-width: 100%;
     height: auto;
     display: block;
