@@ -397,13 +397,20 @@ main {
     margin-bottom: 60px;
 }
 
-.certifications-section .certificate-slide {
-    display: none;
+.certifications-section {
+    width: 100%;
     text-align: center;
 }
 
+.certifications-section .certificate-slide {
+    text-align: center;
+    width: 100%;
+    max-width: 1000px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+}
+
 .certifications-section .certificate-slide img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
