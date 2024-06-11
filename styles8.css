@@ -405,13 +405,14 @@ main {
 .certifications-section .certificate-slide {
     text-align: center;
     width: 100%;
-    max-width: 1000px; /* Adjust the max-width as needed */
+    max-width: 100%; /* Adjust the max-width as needed */
     margin: 0 auto;
+    overflow: hidden; /* Ensure content doesn't overflow */
 }
 
 .certifications-section .certificate-slide img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -442,4 +443,3 @@ main {
     margin-bottom: 30px;
     text-align: center;
 }
-
