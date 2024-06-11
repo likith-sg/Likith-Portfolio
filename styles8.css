@@ -1,3 +1,6 @@
+Sure, here's the complete CSS code including everything:
+
+```css
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -319,6 +322,8 @@ main {
 
 .project-slide li::before {
     content: '\2022';
+
+
     color: #00bfff;
     font-size: 24px;
     position: absolute;
@@ -400,6 +405,14 @@ main {
 .certifications-section {
     width: 100%;
     text-align: center;
+    margin-top: 40px;
+}
+
+.certifications-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0091ff;
+    margin-bottom: 30px;
 }
 
 .certifications-section .certificate-slide {
@@ -437,12 +450,4 @@ main {
 .certifications-section .active {
     background-color: #717171;
 }
-
-.certifications-section h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #0091ff;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
+```
