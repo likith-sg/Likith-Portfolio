@@ -1,7 +1,3 @@
-Certainly! Here's the complete CSS code for your `certifications` section, including all the necessary styles for the slideshow container, certificate slides, and navigation dots:
-
-```css
-/* Body Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,7 +5,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Header Styles */
 header {
     position: fixed;
     top: 0;
@@ -52,7 +47,6 @@ header {
     font-weight: bold;
 }
 
-/* Main Content Styles */
 main {
     padding: 20px;
 }
@@ -61,7 +55,6 @@ main {
     overflow-y: hidden;
 }
 
-/* Home Section Styles */
 .home-section {
     display: flex;
     align-items: flex-start;
@@ -122,7 +115,6 @@ main {
     margin: 10px 0;
 }
 
-/* About Me Section Styles */
 .about-me-section {
     margin-top: 40px;
     display: flex;
@@ -161,7 +153,6 @@ main {
     color: #000000;
 }
 
-/* Hobbies Section Styles */
 .hobbies-section {
     text-align: center;
     margin-top: 90px;
@@ -195,7 +186,6 @@ main {
     margin-right: 10px;
 }
 
-/* Education Section Styles */
 .education-section {
     margin-top: 40px;
     display: flex;
@@ -249,7 +239,6 @@ main {
     margin-bottom: 5px;
 }
 
-/* Skills Section Styles */
 .skills-section {
     text-align: center;
     margin-top: 40px;
@@ -284,7 +273,6 @@ main {
     box-sizing: border-box;
 }
 
-/* Projects Section Styles */
 .projects-section {
     text-align: center;
     margin-top: 60px;
@@ -302,8 +290,8 @@ main {
     max-width: 800px;
     margin: auto;
     border: 2px solid blue;
-    height: auto; /* Adjust height automatically */
-    overflow: hidden; /* Ensure content doesn't overflow */
+    height: 250px;
+    overflow: hidden;
 }
 
 .project-slide {
@@ -356,48 +344,87 @@ main {
     background-color: #717171;
 }
 
-.certifications-section {
-    margin-top: 60px;
+.contact-section {
     text-align: center;
+    margin-top: 40px;
 }
 
-.certifications-heading {
+.contact-heading {
     font-size: 32px;
     font-weight: bold;
     color: #0091ff;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.certifications-slideshow-container {
-    position: relative;
-    max-width: 1000px; /* Adjust max-width as needed */
-    margin: auto;
-    border: 2px solid blue;
-    height: auto; /* Adjust height automatically */
-    overflow: hidden; /* Ensure content doesn't overflow */
+.contact-info {
+    margin-bottom: 20px;
 }
 
-.certification-slide {
-    display: none;
+.follow-me-section {
+    margin-top: 20px;
+}
+
+.follow-me-section h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    background-color: #0091ff;
+    color: #fff;
+    text-align: center;
     padding: 20px;
+}
+
+main {
+    margin-bottom: 60px;
+}
+
+.certifications-section {
+    width: 100%;
     text-align: center;
 }
 
-.certification-slide img {
+.certifications-section .certificate-slide {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    height: auto; /* Adjust height automatically */
+}
+
+.certifications-section .certificate-slide img {
     width: auto;
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
-    max-height: 600px; /* Increase maximum height to fit larger certificates */
 }
 
-.certifications-dot-container {
+.certifications-section .dot-container {
     text-align: center;
     margin-top: 20px;
 }
 
-.certifications-dot {
+.certifications-section .dot {
     height: 15px;
     width: 15px;
     margin: 0 5px;
@@ -407,6 +434,14 @@ main {
     transition: background-color 0.6s ease;
 }
 
-.certifications-active {
+.certifications-section .active {
     background-color: #717171;
+}
+
+.certifications-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0091ff;
+    margin-bottom: 30px;
+    text-align: center;
 }
