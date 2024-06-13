@@ -356,7 +356,6 @@ main {
     background-color: #717171;
 }
 
-/* Certifications Section Styles */
 .certifications-section {
     margin-top: 60px;
     text-align: center;
@@ -371,7 +370,7 @@ main {
 
 .certifications-slideshow-container {
     position: relative;
-    max-width: 800px;
+    max-width: 1000px; /* Adjust max-width as needed */
     margin: auto;
     border: 2px solid blue;
     height: auto; /* Adjust height automatically */
@@ -390,7 +389,7 @@ main {
     height: auto;
     display: block;
     margin: 0 auto;
-    max-height: 500px; /* Limit maximum height of images for consistency */
+    max-height: 600px; /* Increase maximum height to fit larger certificates */
 }
 
 .certifications-dot-container {
@@ -411,12 +410,3 @@ main {
 .certifications-active {
     background-color: #717171;
 }
-
-/* Contact Section Styles */
-.contact-section {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.contact-heading {
-    font-size: 32
