@@ -454,9 +454,9 @@ main {
 }
 .certifications-section .slideshow-container {
     position: relative;
-    max-width: 1000px; /* Adjust maximum width as needed */
+    max-width: 800px; /* Adjust maximum width as needed */
     margin: auto;
     border: 2px solid blue;
-    height: 900px; /* Increase height of the slideshow container */
+    height: 800px; /* Increase height of the slideshow container */
     overflow: hidden;
 }
