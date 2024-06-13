@@ -396,10 +396,10 @@ footer {
 main {
     margin-bottom: 60px;
 }
-
 .certifications-section {
     width: 100%;
     text-align: center;
+    margin-top: 40px;
 }
 
 .certifications-section .certificate-slide {
@@ -409,6 +409,13 @@ main {
     margin: 0 auto;
     overflow: hidden; /* Ensure content doesn't overflow */
     height: auto; /* Adjust height automatically */
+    display: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.certifications-section .certificate-slide.active {
+    display: block;
 }
 
 .certifications-section .certificate-slide img {
@@ -444,4 +451,12 @@ main {
     color: #0091ff;
     margin-bottom: 30px;
     text-align: center;
+}
+.certifications-section .slideshow-container {
+    position: relative;
+    max-width: 800px; /* Adjust maximum width as needed */
+    margin: auto;
+    border: 2px solid blue;
+    height: 500px; /* Increase height of the slideshow container */
+    overflow: hidden;
 }
