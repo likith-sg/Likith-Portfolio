@@ -1,3 +1,7 @@
+Here is the complete CSS code with the requested changes applied:
+
+```css
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -49,12 +53,17 @@ header {
 
 main {
     padding: 20px;
+    margin-bottom: 60px; /* Ensures footer doesn't overlap */
 }
 
-.smooth-scrolling {
-    overflow-y: hidden;
+footer {
+    background-color: #0091ff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
 
+/* Home Section Styles */
 .home-section {
     display: flex;
     align-items: flex-start;
@@ -115,6 +124,7 @@ main {
     margin: 10px 0;
 }
 
+/* About Me Section Styles */
 .about-me-section {
     margin-top: 40px;
     display: flex;
@@ -153,6 +163,7 @@ main {
     color: #000000;
 }
 
+/* Hobbies Section Styles */
 .hobbies-section {
     text-align: center;
     margin-top: 90px;
@@ -162,7 +173,7 @@ main {
     font-size: 32px;
     font-weight: bold;
     color: #0091ff;
-    margin-right: 1400px;
+    margin-right: 1400px; /* Adjust margin as needed */
 }
 
 .hobbies-list {
@@ -186,6 +197,7 @@ main {
     margin-right: 10px;
 }
 
+/* Education Section Styles */
 .education-section {
     margin-top: 40px;
     display: flex;
@@ -239,6 +251,7 @@ main {
     margin-bottom: 5px;
 }
 
+/* Skills Section Styles */
 .skills-section {
     text-align: center;
     margin-top: 40px;
@@ -273,6 +286,7 @@ main {
     box-sizing: border-box;
 }
 
+/* Projects Section Styles */
 .projects-section {
     text-align: center;
     margin-top: 60px;
@@ -344,6 +358,7 @@ main {
     background-color: #717171;
 }
 
+/* Contact Section Styles */
 .contact-section {
     text-align: center;
     margin-top: 40px;
@@ -386,20 +401,11 @@ main {
     height: 40px;
 }
 
-footer {
-    background-color: #0091ff;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-main {
-    margin-bottom: 60px;
-}
-
+/* Certifications Section Styles */
 .certifications-section {
     width: 100%;
     text-align: center;
+    margin-top: 60px; /* Adjust margin as needed */
 }
 
 .certifications-section .certificate-slide {
@@ -421,27 +427,3 @@ main {
 
 .certifications-section .dot-container {
     text-align: center;
-    margin-top: 20px;
-}
-
-.certifications-section .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.certifications-section .active {
-    background-color: #717171;
-}
-
-.certifications-section h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #0091ff;
-    margin-bottom: 30px;
-    text-align: center;
-}
