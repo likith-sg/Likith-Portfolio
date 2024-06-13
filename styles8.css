@@ -1,3 +1,7 @@
+Certainly! Here is the complete CSS code incorporating all the changes discussed:
+
+```css
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -49,12 +53,14 @@ header {
 
 main {
     padding: 20px;
+    margin-top: 80px; /* Adjusted margin top to accommodate fixed header */
 }
 
 .smooth-scrolling {
     overflow-y: hidden;
 }
 
+/* Home Section Styles */
 .home-section {
     display: flex;
     align-items: flex-start;
@@ -64,7 +70,6 @@ main {
 .text-column {
     flex: 1;
     text-align: left;
-    margin-top: 80px;
 }
 
 .big-text {
@@ -115,6 +120,7 @@ main {
     margin: 10px 0;
 }
 
+/* About Me Section Styles */
 .about-me-section {
     margin-top: 40px;
     display: flex;
@@ -132,7 +138,7 @@ main {
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
-    margin-left: 150px;
+    margin-left: 150px; /* Adjusted margin left for centering */
 }
 
 .profile-image img {
@@ -153,6 +159,7 @@ main {
     color: #000000;
 }
 
+/* Hobbies Section Styles */
 .hobbies-section {
     text-align: center;
     margin-top: 90px;
@@ -162,7 +169,6 @@ main {
     font-size: 32px;
     font-weight: bold;
     color: #0091ff;
-    margin-right: 1400px;
 }
 
 .hobbies-list {
@@ -186,6 +192,7 @@ main {
     margin-right: 10px;
 }
 
+/* Education Section Styles */
 .education-section {
     margin-top: 40px;
     display: flex;
@@ -239,6 +246,7 @@ main {
     margin-bottom: 5px;
 }
 
+/* Skills Section Styles */
 .skills-section {
     text-align: center;
     margin-top: 40px;
@@ -273,6 +281,7 @@ main {
     box-sizing: border-box;
 }
 
+/* Projects Section Styles */
 .projects-section {
     text-align: center;
     margin-top: 60px;
@@ -287,11 +296,11 @@ main {
 
 .slideshow-container {
     position: relative;
-    max-width: 800px;
+    max-width: 800px; /* Adjust max-width based on your design */
     margin: auto;
     border: 2px solid blue;
-    height: 250px;
-    overflow: hidden;
+    height: auto; /* Adjust height automatically */
+    overflow: hidden; /* Ensure content doesn't overflow */
 }
 
 .project-slide {
@@ -344,6 +353,61 @@ main {
     background-color: #717171;
 }
 
+/* Certifications Section Styles */
+.certifications-section {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.certifications-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0091ff;
+    margin-bottom: 30px;
+}
+
+.certifications-slideshow-container {
+    position: relative;
+    max-width: 600px; /* Adjust max-width based on your design */
+    margin: auto;
+    border: 2px solid blue;
+    height: auto; /* Adjust height automatically */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.certification-slide {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.certification-slide img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 400px; /* Adjust maximum height to fit within the smaller section */
+}
+
+.certifications-dot-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.certifications-dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.certifications-active {
+    background-color: #717171;
+}
 .contact-section {
     text-align: center;
     margin-top: 40px;
@@ -397,51 +461,3 @@ main {
     margin-bottom: 60px;
 }
 
-.certifications-section {
-    width: 100%;
-    text-align: center;
-}
-
-.certifications-section .certificate-slide {
-    text-align: center;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    overflow: hidden; /* Ensure content doesn't overflow */
-    height: auto; /* Adjust height automatically */
-}
-
-.certifications-section .certificate-slide img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.certifications-section .dot-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.certifications-section .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.certifications-section .active {
-    background-color: #717171;
-}
-
-.certifications-section h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #0091ff;
-    margin-bottom: 30px;
-    text-align: center;
-}
