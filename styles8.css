@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+
 header {
     position: fixed;
     top: 0;
@@ -14,13 +15,16 @@ header {
     z-index: 1000;
     padding: 10px;
 }
+
 #navbar-overlay {
     height: 50px;
 }
+
 .nav-brand {
     display: flex;
     align-items: center;
 }
+
 .nav-brand span {
     font-family: 'Your Attractive Font', sans-serif;
     font-size: 28px;
@@ -28,34 +32,41 @@ header {
     color: #333;
     margin-left: 10px;
 }
+
 .nav-links {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: auto;
 }
+
 .nav-links a {
     text-decoration: none;
     color: #333;
     margin: 0 15px;
     font-weight: bold;
 }
+
 main {
     padding: 20px;
 }
+
 .smooth-scrolling {
     overflow-y: hidden;
 }
+
 .home-section {
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
 }
+
 .text-column {
     flex: 1;
     text-align: left;
     margin-top: 80px;
 }
+
 .big-text {
     font-family: 'Your Modern Font', sans-serif;
     font-size: 40px;
@@ -63,12 +74,14 @@ main {
     color: #000;
     margin-bottom: 10px;
 }
+
 .blue-text {
     font-family: 'Your Modern Font', sans-serif;
     font-size: 28px;
     font-weight: bold;
     color: #00bfff;
 }
+
 .download-button {
     background-color: #3221e3;
     color: #fff;
@@ -83,31 +96,37 @@ main {
     text-decoration: none;
     display: inline-block;
 }
+
 .image-column {
     flex: 1;
     text-align: right;
 }
+
 .image-column img {
     max-width: 100%;
     height: auto;
     max-height: 500px;
 }
+
 .line {
     width: 100%;
     height: 2px;
     background-color: #333;
     margin: 10px 0;
 }
+
 .about-me-section {
     margin-top: 40px;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
 }
+
 .about-me-image {
     flex: 1;
     text-align: center;
 }
+
 .profile-image {
     width: 200px;
     height: 200px;
@@ -115,35 +134,42 @@ main {
     overflow: hidden;
     margin-left: 150px;
 }
+
 .profile-image img {
     width: 100%;
     height: auto;
     border: 2px solid #00bfff;
 }
+
 .about-me-text {
     flex: 1;
     padding-left: 20px;
     color: #0091ff;
 }
+
 .career-objective {
     font-size: 18px;
     line-height: 1.5;
     color: #000000;
 }
+
 .hobbies-section {
     text-align: center;
     margin-top: 90px;
 }
+
 .hobbies-section h2 {
     font-size: 32px;
     font-weight: bold;
     color: #0091ff;
     margin-right: 1400px;
 }
+
 .hobbies-list {
     list-style-type: none;
     padding: 0;
 }
+
 .hobbies-list li {
     font-size: 18px;
     font-weight: bold;
@@ -152,18 +178,21 @@ main {
     display: flex;
     align-items: center;
 }
+
 .hobbies-list li::before {
     content: '\2022';
     color: #00bfff;
     font-size: 24px;
     margin-right: 10px;
 }
+
 .education-section {
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .education-heading {
     font-size: 28px;
     font-weight: bold;
@@ -173,12 +202,14 @@ main {
     width: 100%;
     box-sizing: border-box;
 }
+
 .education-columns {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
 }
+
 .education-column {
     flex: 1;
     text-align: center;
@@ -190,36 +221,43 @@ main {
     background-color: #f9f9f9;
     transition: transform 0.3s ease-in-out;
 }
+
 .education-column:hover {
     transform: scale(1.05);
 }
+
 .education-column h3 {
     font-size: 24px;
     font-weight: bold;
     color: #000;
     margin-bottom: 10px;
 }
+
 .education-column p {
     font-size: 16px;
     color: #333;
     margin-bottom: 5px;
 }
+
 .skills-section {
     text-align: center;
     margin-top: 40px;
 }
+
 .skills-heading {
     font-size: 32px;
     font-weight: bold;
     color: #0091ff;
     margin-bottom: 20px;
 }
+
 .skills-list {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .skill {
     border: 2px solid #000;
     border-radius: 10px;
@@ -234,16 +272,19 @@ main {
     margin: 10px;
     box-sizing: border-box;
 }
+
 .projects-section {
     text-align: center;
     margin-top: 60px;
 }
+
 .projects-heading {
     font-size: 32px;
     font-weight: bold;
     color: #0091ff;
     margin-bottom: 50px;
 }
+
 .slideshow-container {
     position: relative;
     max-width: 800px;
@@ -252,6 +293,7 @@ main {
     height: 250px;
     overflow: hidden;
 }
+
 .project-slide {
     display: none;
     padding: 20px;
@@ -259,18 +301,22 @@ main {
     height: 100%;
     box-sizing: border-box;
 }
+
 .project-slide h3 {
     margin-top: 0;
 }
+
 .project-slide ul {
     list-style: none;
     padding: 0;
 }
+
 .project-slide li {
     margin-bottom: 10px;
     position: relative;
     padding-left: 20px;
 }
+
 .project-slide li::before {
     content: '\2022';
     color: #00bfff;
@@ -278,10 +324,12 @@ main {
     position: absolute;
     left: 0;
 }
+
 .slideshow-container .dot-container {
     text-align: center;
     margin-top: 20px;
 }
+
 .dot {
     height: 15px;
     width: 15px;
@@ -291,67 +339,91 @@ main {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
+
 .active {
     background-color: #717171;
 }
+
 .contact-section {
     text-align: center;
     margin-top: 40px;
 }
+
 .contact-heading {
     font-size: 32px;
     font-weight: bold;
     color: #0091ff;
     margin-bottom: 20px;
 }
+
 .contact-info {
     margin-bottom: 20px;
 }
+
 .follow-me-section {
     margin-top: 20px;
 }
+
 .follow-me-section h3 {
     font-size: 24px;
     color: #333;
 }
+
 .social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
 }
+
 .social-icons a {
     display: inline-block;
     margin: 0 10px;
 }
+
 .social-icons img {
     width: 40px;
     height: 40px;
 }
+
 footer {
     background-color: #0091ff;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
+
 main {
     margin-bottom: 60px;
 }
-.certifications-section .certificate-slide {
-    display: none;
+
+.certifications-section {
+    width: 100%;
     text-align: center;
 }
 
-.certifications-section .certificate-slide img {
+.certifications-section .certificate-slide {
+    text-align: center;
+    width: 100%;
     max-width: 100%;
-    max-width: 500%;
+    margin: 0 auto;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    height: auto; /* Adjust height automatically */
+}
+
+.certifications-section .certificate-slide img {
+    width: auto;
+    max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .certifications-section .dot-container {
     text-align: center;
     margin-top: 20px;
 }
+
 .certifications-section .dot {
     height: 15px;
     width: 15px;
@@ -361,13 +433,15 @@ main {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
+
 .certifications-section .active {
     background-color: #717171;
 }
+
 .certifications-section h2 {
     font-size: 32px;
     font-weight: bold;
-    color: #0091ff; 
-    margin-bottom: 30px; 
-    text-align: center; 
+    color: #0091ff;
+    margin-bottom: 30px;
+    text-align: center;
 }
