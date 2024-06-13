@@ -1,7 +1,7 @@
-Here is the complete CSS code with the requested changes applied:
+Certainly! Here's the complete CSS code for your `certifications` section, including all the necessary styles for the slideshow container, certificate slides, and navigation dots:
 
 ```css
-/* General Styles */
+/* Body Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,6 +9,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header Styles */
 header {
     position: fixed;
     top: 0;
@@ -51,16 +52,13 @@ header {
     font-weight: bold;
 }
 
+/* Main Content Styles */
 main {
     padding: 20px;
-    margin-bottom: 60px; /* Ensures footer doesn't overlap */
 }
 
-footer {
-    background-color: #0091ff;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+.smooth-scrolling {
+    overflow-y: hidden;
 }
 
 /* Home Section Styles */
@@ -173,7 +171,7 @@ footer {
     font-size: 32px;
     font-weight: bold;
     color: #0091ff;
-    margin-right: 1400px; /* Adjust margin as needed */
+    margin-right: 1400px;
 }
 
 .hobbies-list {
@@ -304,8 +302,8 @@ footer {
     max-width: 800px;
     margin: auto;
     border: 2px solid blue;
-    height: 250px;
-    overflow: hidden;
+    height: auto; /* Adjust height automatically */
+    overflow: hidden; /* Ensure content doesn't overflow */
 }
 
 .project-slide {
@@ -358,6 +356,62 @@ footer {
     background-color: #717171;
 }
 
+/* Certifications Section Styles */
+.certifications-section {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.certifications-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0091ff;
+    margin-bottom: 30px;
+}
+
+.certifications-slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid blue;
+    height: auto; /* Adjust height automatically */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.certification-slide {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.certification-slide img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 500px; /* Limit maximum height of images for consistency */
+}
+
+.certifications-dot-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.certifications-dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.certifications-active {
+    background-color: #717171;
+}
+
 /* Contact Section Styles */
 .contact-section {
     text-align: center;
@@ -365,65 +419,4 @@ footer {
 }
 
 .contact-heading {
-    font-size: 32px;
-    font-weight: bold;
-    color: #0091ff;
-    margin-bottom: 20px;
-}
-
-.contact-info {
-    margin-bottom: 20px;
-}
-
-.follow-me-section {
-    margin-top: 20px;
-}
-
-.follow-me-section h3 {
-    font-size: 24px;
-    color: #333;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.social-icons a {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.social-icons img {
-    width: 40px;
-    height: 40px;
-}
-
-/* Certifications Section Styles */
-.certifications-section {
-    width: 100%;
-    text-align: center;
-    margin-top: 60px; /* Adjust margin as needed */
-}
-
-.certifications-section .certificate-slide {
-    text-align: center;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    overflow: hidden; /* Ensure content doesn't overflow */
-    height: auto; /* Adjust height automatically */
-}
-
-.certifications-section .certificate-slide img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.certifications-section .dot-container {
-    text-align: center;
+    font-size: 32
