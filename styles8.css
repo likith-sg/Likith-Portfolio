@@ -249,11 +249,9 @@ main {
     max-width: 800px;
     margin: auto;
     border: 2px solid blue;
-    height: 400px; /* Adjust the height as needed */
-    height: 250px; /* Adjust the height as needed */
+    height: 250px;
     overflow: hidden;
 }
-
 .project-slide {
     display: none;
     padding: 20px;
@@ -273,11 +271,8 @@ main {
     position: relative;
     padding-left: 20px;
 }
-
 .project-slide li::before {
     content: '\2022';
-
-
     color: #00bfff;
     font-size: 24px;
     position: absolute;
@@ -342,31 +337,15 @@ footer {
 main {
     margin-bottom: 60px;
 }
-.certifications-section {
-    width: 100%;
-    text-align: center;
-    margin-top: 40px;
-}
-.certifications-section h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #0091ff;
-    margin-bottom: 30px;
-}
 .certifications-section .certificate-slide {
+    display: none;
     text-align: center;
-    width: 100%;
-    max-width: 800px; /* Adjust max-width as needed */
-    margin: 0 auto;
-    overflow: hidden; /* Ensure content doesn't overflow */
-    height: auto; /* Adjust height automatically */
 }
 
 .certifications-section .certificate-slide img {
-    width: 100%; /* Ensures the image fills its container */
+    max-width: 100%;
+    max-width: 500%;
     height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
 .certifications-section .dot-container {
@@ -384,4 +363,11 @@ main {
 }
 .certifications-section .active {
     background-color: #717171;
+}
+.certifications-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0091ff; 
+    margin-bottom: 30px; 
+    text-align: center; 
 }
