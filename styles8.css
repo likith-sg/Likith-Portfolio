@@ -290,7 +290,7 @@ main {
     max-width: 800px;
     margin: auto;
     border: 2px solid blue;
-    height: 250px; /* Adjust the height as needed */
+    height: 400px; /* Adjust the height as needed */
     overflow: hidden;
 }
 
@@ -395,4 +395,19 @@ footer {
 
 main {
     margin-bottom: 60px;
+}
+
+/* Additional CSS for certificate slides */
+.certificates-section .certificate-slide {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.certificates-section .certificate-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
 }
