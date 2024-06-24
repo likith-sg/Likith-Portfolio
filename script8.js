@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    initializeSlideshow("project-slide", 2000);
+    initializeSlideshow("project-slide", 5000);
     initializeSlideshow("certificate-slide", 2000);
     initializeDownloadButton();
     initializeScrollEffect();
