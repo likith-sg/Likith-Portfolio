@@ -15,7 +15,8 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 - Detailed overview of my skills and experiences
 - Showcase of my Certifications
 - Showcase of my projects with descriptions and links to the code
-- Responsive design for optimal viewing on different devices
+- Responsive design for optimal viewing
+- A Contact section containing links to my socials
 
 ## How to Access
 
